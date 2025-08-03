@@ -1,0 +1,13 @@
+<msdyn_planartifact msdyn_planartifactid="3b674c5a-8b1c-f011-9989-6045bddd32cd">
+  <iscustomizable>1</iscustomizable>
+  <msdyn_artifactmetadata mimetype="application/octet-stream">Endeavor%20Management</msdyn_artifactmetadata>
+  <msdyn_artifactmetadataschemaversion>1.0</msdyn_artifactmetadataschemaversion>
+  <msdyn_artifactstatus>419550001</msdyn_artifactstatus>
+  <msdyn_description>An app for project managers and backoffice users to manage projects and generate invoices, ensuring efficient project tracking and billing.</msdyn_description>
+  <msdyn_name>Endeavor Management</msdyn_name>
+  <msdyn_proposal mimetype="application/octet-stream">Endeavor%20Management</msdyn_proposal>
+  <msdyn_proposalschemaversion>1.0</msdyn_proposalschemaversion>
+  <msdyn_type>PowerAppsModelApp</msdyn_type>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</msdyn_planartifact>
