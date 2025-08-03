@@ -1,0 +1,91 @@
+{
+  "name": "Endeavor Management",
+  "description": "An app for project managers and backoffice users to manage projects and generate invoices, ensuring efficient project tracking and billing.",
+  "typesOfUsers": [
+    "Project Manager",
+    "Backoffice User"
+  ],
+  "tableSchemaNames": [
+    "end_Project",
+    "end_Invoice",
+    "end_BusinessUnit"
+  ],
+  "userStories": [
+    {
+      "id": "us01",
+      "description": "Create a new project record so that I can track project details.",
+      "userType": "Project Manager"
+    },
+    {
+      "id": "us02",
+      "description": "Update existing project records so that project information is current.",
+      "userType": "Project Manager"
+    },
+    {
+      "id": "us03",
+      "description": "View project details so that I can monitor project progress.",
+      "userType": "Project Manager"
+    },
+    {
+      "id": "us04",
+      "description": "Assign an engagement manager to a project so that there is a designated point of contact.",
+      "userType": "Project Manager"
+    },
+    {
+      "id": "us05",
+      "description": "Set project start and end dates so that the project timeline is clear.",
+      "userType": "Project Manager"
+    },
+    {
+      "id": "us06",
+      "description": "Set project completion date so that the project status is updated.",
+      "userType": "Project Manager"
+    },
+    {
+      "id": "us07",
+      "description": "Define invoicing method for a project so that billing is managed correctly.",
+      "userType": "Project Manager"
+    },
+    {
+      "id": "us08",
+      "description": "Specify project value so that financial tracking is accurate.",
+      "userType": "Project Manager"
+    },
+    {
+      "id": "us09",
+      "description": "Set billing frequency for a project so that invoices are generated on time.",
+      "userType": "Project Manager"
+    },
+    {
+      "id": "us10",
+      "description": "Link project to a specific client so that client information is accessible.",
+      "userType": "Project Manager"
+    },
+    {
+      "id": "us11",
+      "description": "Generate invoices against a project so that billing is processed.",
+      "userType": "Backoffice User"
+    },
+    {
+      "id": "us12",
+      "description": "Include title, total fee, total expenses, and invoice total in invoices so that billing details are clear.",
+      "userType": "Backoffice User"
+    },
+    {
+      "id": "us13",
+      "description": "Add other invoice instructions so that specific billing requirements are met.",
+      "userType": "Backoffice User"
+    },
+    {
+      "id": "us16",
+      "description": "View all projects associated with a business unit so that I can manage multiple projects effectively.",
+      "userType": "Project Manager"
+    },
+    {
+      "id": "us17",
+      "description": "Contact clients via email or phone so that communication is maintained.",
+      "userType": "Project Manager"
+    }
+  ],
+  "version": 1
+}

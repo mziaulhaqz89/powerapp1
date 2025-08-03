@@ -1,0 +1,1050 @@
+{
+  "personasAndUserStories": [
+    {
+      "user": {
+        "id": "Project Manager",
+        "name": "Project Manager",
+        "description": "Person responsible for creating and updating project records",
+        "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANESURBVHgBzVfNaxNBFP/N7GeSNjVNRU1NUBBpQU89iCcPPXrxoHj0JIhX7978G7x5FTzp2ZsHRbxIUVCsWKykUpo2TWiT/fa9SSNW0u5Ma8AfzM7s7O57v3kfs29ERoAG+LU0TZEkier5fvipEEI1KaVqlmWpex2IPAL8OIoipViTq4Jt23AcJ5fIgQSGiuM4xnGQR2QkAZ7q9/tGKz4MrNz3/ZEk5LiV58mUui+Oi4TMe2HcJOzhgANOV3nW/gpn8zWsbJ2WQOlYbCCeXkTqVPO/3Qtu13XVvQpCnuz1etCBvfwMztoTCD8AJk4DjXuA5QBrTxGVFxFVb2jJKRQKKiiVBZiRDsTyC7irjwFWLlOgeJX6GjA1R+MLcFYfIetUEJev5coaWkHy6nVz3Ws+J4VkKZFQT9yDd0CPWvCNHs4C5TqcnZdk53x5w43N5m1VB6L1GTL4DrgZJzaZnQiILhB/oDZNRJrsUAjsQoZrSL36ofJYOZOw+aKF/iZdmKwYEOiT39vctmj6LbmAHoVknbhLBJq5BBi8eG0LZNIdKBaUuSFZIaT+DFnB3wWaK8AM3Vs0H3WRWRNaMlm31M77mTmkmQ+1dXSplS2SQBZIeExWbIc07pMFeLqmJZJ16xNwSghnb5H0Aq3UG3gDlA0ptTb3lElhhGjqJjKnoiVSEYABkvk7CO0F8jc5fIPckQUDv2/R6ksU1biM6NRtE5GQuoUDQ5D/4ysPkVgNyn2yXIfaJn1fF8hEHf1zD2ACVcSYEFBwiojm7tNWRqsOKQZkiSziIKzdRWaXjETtVVFGXlBIK5coK0iZJL97Nvl8CklxHqZg3TbXb6ZVTxiEePPpOs5SJkxOViHi8yjQnOu5RnIUAb6wKUx+w+2NFra7FYrFBqJeFU67CJtS0fVgBF68igEeGDGnNPzxs4P1VguJoJ9KwTKuI7hWVDHAN1w0mmC3s4OTJ2rY2fbx5WMbS+9XYbu2kYyhzt9FaRiGRrEQ9mMsvVqBX3JwcWEWrq9PgFe/ryDhAXdBEED333BU/F0hyz8feJ6Ho6TlUZXvIzBuEgedDeSoF/81icMOJv/n0ey4RIZ7y7EOp6OI6BzP1e62t7vq4Bcn3Msv873K6AAAAABJRU5ErkJggg=="
+      },
+      "userStories": [
+        {
+          "id": "us01",
+          "description": "Create a new project record so that I can track project details.",
+          "userType": "Project Manager"
+        },
+        {
+          "id": "us02",
+          "description": "Update existing project records so that project information is current.",
+          "userType": "Project Manager"
+        },
+        {
+          "id": "us03",
+          "description": "View project details so that I can monitor project progress.",
+          "userType": "Project Manager"
+        },
+        {
+          "id": "us04",
+          "description": "Assign an engagement manager to a project so that there is a designated point of contact.",
+          "userType": "Project Manager"
+        },
+        {
+          "id": "us05",
+          "description": "Set project start and end dates so that the project timeline is clear.",
+          "userType": "Project Manager"
+        },
+        {
+          "id": "us06",
+          "description": "Set project completion date so that the project status is updated.",
+          "userType": "Project Manager"
+        },
+        {
+          "id": "us07",
+          "description": "Define invoicing method for a project so that billing is managed correctly.",
+          "userType": "Project Manager"
+        },
+        {
+          "id": "us08",
+          "description": "Specify project value so that financial tracking is accurate.",
+          "userType": "Project Manager"
+        },
+        {
+          "id": "us09",
+          "description": "Set billing frequency for a project so that invoices are generated on time.",
+          "userType": "Project Manager"
+        },
+        {
+          "id": "us10",
+          "description": "Link project to a specific client so that client information is accessible.",
+          "userType": "Project Manager"
+        },
+        {
+          "id": "us14",
+          "description": "Automatically add project entries to an Excel sheet so that project data is easily accessible.",
+          "userType": "Project Manager"
+        },
+        {
+          "id": "us15",
+          "description": "Receive notifications when a project is created or updated so that I am informed of changes.",
+          "userType": "Project Manager"
+        },
+        {
+          "id": "us16",
+          "description": "View all projects associated with a business unit so that I can manage multiple projects effectively.",
+          "userType": "Project Manager"
+        },
+        {
+          "id": "us17",
+          "description": "Contact clients via email or phone so that communication is maintained.",
+          "userType": "Project Manager"
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": "Backoffice User",
+        "name": "Backoffice User",
+        "description": "Person responsible for generating invoices against projects",
+        "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAL6SURBVHgBzVdLj9MwEB5PnO6CFhAcgCviByCOHOG38me4gITEQ+xtJcRDC6staNs0sYeZiZ2kbeKklK4Yyc+MPd88PHYMMcEEEjbvPTjntJVxXGqM0YKIWrIs0/EUMmMA5HNZlip4IlYlay3keT4KZBBAFFxVFexDY0B6AcjUcrncSeMUifDj4+NeEHho4WN74lTGQ4HAMYZDg2gASMAdUngXhMhaAyCT+0b7LiSyorIKoIvouijKxOvWPlJMbFbSaorKksFRLn7i0s4jcrpFD8WqAF9JGjbtOecmsxnPeW6xd18RLiBQqiF6O/fw4fQMMrRgs5xzvNU+Gsn1CIurEuYXBe9mdC6Wmn8Gl78W8HE1nIpFeUxZ4NWlh3JVqvK19iagr8euJJ4xOq8GonAxcWhJXzz7epklAdjU0aMIjll8kEzBFeRbIPXNWDPKEsTAIyCHDVzHQBKALsYGRCsw2IK6hdYsRMEkNAIAIUHkWgs0INY4TD0mcYFZY41gfAKAqpe6r70nuS7DZkYc3Pi8FVL3623a77H1btjCIttKNeQGctQKDizrGsp8BIHNvAlr1ELOJAGgPKEGLeCCzRshG4Wg0+9axzRryA9bQGRbeb8NZUJybcTrmNrjRqIhyXGLhc3tjSru5SDKGhZOlU8DkGrIDZ6DsFxW8O3LOQeL7QSh4aSEqmVVEVyc/wbksdqApw1nxYxLUZXJGBDlNQaGrFBADmdXM/j87ms456YJLyG3LNTE9uaNFoC4n5XKc86WJzOYn4iLt60gb0UNQhnIo7EPQOkQXtIjZqDal3Ku40f2y/npe3Bs4gdPmcdjOJJQx61sVyA8s3LrbWdDkalAVC9Bwog2QTy/s4LFpx+Q8XffTT6m7r+5+1AvoSeXF00mjDUGM714fJvrW73aq+z4KpamKAoYux279P3nStv792aT12y+kNee5X8DYhfqe57jJsPR0RGkcsO/FL4F4FAgUj8m/+ev2b5AYm7Z6+e0D8iU33MRHLPrFPoDXQUee1OzTjQAAAAASUVORK5CYII="
+      },
+      "userStories": [
+        {
+          "id": "us11",
+          "description": "Generate invoices against a project so that billing is processed.",
+          "userType": "Backoffice User"
+        },
+        {
+          "id": "us12",
+          "description": "Include title, total fee, total expenses, and invoice total in invoices so that billing details are clear.",
+          "userType": "Backoffice User"
+        },
+        {
+          "id": "us13",
+          "description": "Add other invoice instructions so that specific billing requirements are met.",
+          "userType": "Backoffice User"
+        }
+      ]
+    }
+  ],
+  "entitiesAndRelationships": {
+    "entities": [
+      {
+        "entityName": "Project",
+        "description": "Stores information about projects, including timelines, financial details, and management assignments.",
+        "columns": [
+          "Project ID",
+          "Business Unit ID",
+          "Project Name",
+          "Start Date",
+          "End Date",
+          "Completion Date",
+          "Invoicing Method",
+          "Project Value",
+          "Billing Frequency"
+        ],
+        "userStories": [
+          "us01",
+          "us02",
+          "us03",
+          "us04",
+          "us05",
+          "us06",
+          "us07",
+          "us08",
+          "us09",
+          "us10",
+          "us11",
+          "us14",
+          "us15",
+          "us16"
+        ],
+        "userConfirmed": false,
+        "generated": true
+      },
+      {
+        "entityName": "Invoice",
+        "description": "Stores details of invoices generated against projects, including billing amounts and instructions.",
+        "columns": [
+          "Invoice ID",
+          "Project ID",
+          "Title",
+          "Total Fee",
+          "Total Expenses",
+          "Invoice Total",
+          "Other Invoice Instructions"
+        ],
+        "userStories": [
+          "us11",
+          "us12",
+          "us13"
+        ],
+        "userConfirmed": false,
+        "generated": true
+      },
+      {
+        "entityName": "Business Unit",
+        "description": "Stores information about business units that can have multiple projects associated with them.",
+        "columns": [
+          "Business Unit ID",
+          "Business Unit Name"
+        ],
+        "userStories": [
+          "us16",
+          "us17"
+        ],
+        "userConfirmed": false,
+        "generated": true
+      }
+    ],
+    "relationships": [
+      {
+        "from": "Project",
+        "relationship": "ManyToOne",
+        "to": "Business Unit"
+      },
+      {
+        "from": "Invoice",
+        "relationship": "ManyToOne",
+        "to": "Project"
+      }
+    ],
+    "isFinalResult": true
+  },
+  "entitiesCollection": [
+    {
+      "EntityDefinition": {
+        "@odata.type": "Microsoft.Dynamics.CRM.EntityMetadata",
+        "Attributes": [
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+            "IsPrimaryName": false,
+            "Format": "Text",
+            "MaxLength": 100,
+            "AttributeType": "String",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Client ID",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "end_ClientID",
+            "MetadataId": "00f9a460-597a-45ff-a2f1-e94995ec6a33",
+            "FormatName": {
+              "Value": "Text"
+            },
+            "AttributeTypeName": {
+              "Value": "StringType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+            "Targets": [
+              "end_businessunit"
+            ],
+            "Format": "None",
+            "AttributeType": "Lookup",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Business Unit",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "end_BusinessUnitID",
+            "MetadataId": "0178fa32-0c38-4ca6-adf8-ef08b7069ab4",
+            "AttributeTypeName": {
+              "Value": "LookupType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+            "IsPrimaryName": true,
+            "Format": "Text",
+            "MaxLength": 100,
+            "AttributeType": "String",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Project Name",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "end_ProjectName",
+            "MetadataId": "192ade3d-6152-46d1-aa3b-0b2e34679db1",
+            "FormatName": {
+              "Value": "Text"
+            },
+            "AttributeTypeName": {
+              "Value": "StringType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+            "Format": "DateOnly",
+            "AttributeType": "DateTime",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Start Date",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "end_StartDate",
+            "MetadataId": "82fea447-500c-4406-bbbd-9fe86a4fafe8",
+            "AttributeTypeName": {
+              "Value": "DateTimeType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+            "Format": "DateOnly",
+            "AttributeType": "DateTime",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "End Date",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "end_EndDate",
+            "MetadataId": "e3e0ad8f-bc5f-4b9f-97fa-65b99e1e9e8e",
+            "AttributeTypeName": {
+              "Value": "DateTimeType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+            "Format": "DateOnly",
+            "AttributeType": "DateTime",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Completion Date",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true
+            },
+            "SchemaName": "end_CompletionDate",
+            "MetadataId": "31fe0e45-43db-4b09-80b6-e197ffe15470",
+            "AttributeTypeName": {
+              "Value": "DateTimeType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+            "DefaultFormValue": 787950000,
+            "OptionSet": {
+              "Options": [
+                {
+                  "Value": 787950000,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "Hourly",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "IsHidden": false
+                },
+                {
+                  "Value": 787950001,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "Fixed",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "IsHidden": false
+                },
+                {
+                  "Value": 787950002,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "Retainer",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "IsHidden": false
+                }
+              ],
+              "DisplayName": {
+                "LocalizedLabels": [
+                  {
+                    "Label": "Invoicing Method",
+                    "LanguageCode": 1033
+                  }
+                ]
+              },
+              "IsGlobal": false,
+              "OptionSetType": "Picklist"
+            },
+            "AttributeType": "Picklist",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Invoicing Method",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true
+            },
+            "SchemaName": "end_InvoicingMethod",
+            "MetadataId": "04b4123b-97d6-437f-bcd2-4b96e4043e80",
+            "AttributeTypeName": {
+              "Value": "PicklistType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+            "IsPrimaryName": false,
+            "Format": "Text",
+            "MaxLength": 100,
+            "AttributeType": "String",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Engagement Manager",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "end_EngagementManager",
+            "MetadataId": "e5074506-ad1b-44fd-8670-b264dbe6daf5",
+            "FormatName": {
+              "Value": "Text"
+            },
+            "AttributeTypeName": {
+              "Value": "StringType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+            "IsPrimaryName": false,
+            "Format": "Text",
+            "MaxLength": 100,
+            "AttributeType": "String",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Project Manager",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "end_ProjectManager",
+            "MetadataId": "68f96854-cf14-4165-9729-9b2f2e05f4d0",
+            "FormatName": {
+              "Value": "Text"
+            },
+            "AttributeTypeName": {
+              "Value": "StringType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "Precision": 0,
+            "PrecisionSource": 0,
+            "AttributeType": "Money",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Project Value",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "end_ProjectValue",
+            "MetadataId": "a8978b6c-7b26-451d-b982-ef3bffe45c79",
+            "AttributeTypeName": {
+              "Value": "MoneyType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+            "DefaultFormValue": 787950000,
+            "OptionSet": {
+              "Options": [
+                {
+                  "Value": 787950000,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "Monthly",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "IsHidden": false
+                },
+                {
+                  "Value": 787950001,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "Quarterly",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "IsHidden": false
+                },
+                {
+                  "Value": 787950002,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "Annually",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "IsHidden": false
+                }
+              ],
+              "DisplayName": {
+                "LocalizedLabels": [
+                  {
+                    "Label": "Billing Frequency",
+                    "LanguageCode": 1033
+                  }
+                ]
+              },
+              "IsGlobal": false,
+              "OptionSetType": "Picklist"
+            },
+            "AttributeType": "Picklist",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Billing Frequency",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true
+            },
+            "SchemaName": "end_BillingFrequency",
+            "MetadataId": "c949a3c1-f037-4757-b5bd-d8c8fafe5f6d",
+            "AttributeTypeName": {
+              "Value": "PicklistType"
+            }
+          }
+        ],
+        "Description": {
+          "LocalizedLabels": [
+            {
+              "Label": "This table contains records of project information",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayCollectionName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Projects",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Project",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "ManyToOneRelationships": [
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.OneToManyRelationshipMetadata",
+            "CascadeConfiguration": {
+              "Assign": "NoCascade",
+              "Delete": "RemoveLink",
+              "Merge": "NoCascade",
+              "Reparent": "NoCascade",
+              "Share": "NoCascade",
+              "Unshare": "NoCascade"
+            },
+            "ReferencedAttribute": "end_businessunitid",
+            "ReferencedEntity": "end_businessunit",
+            "ReferencingAttribute": "end_businessunitid",
+            "ReferencingEntity": "end_project",
+            "SchemaName": "end_Project_end_BusinessUnit",
+            "MetadataId": "6ecc5d91-ef6e-4730-901a-0a2addae557a",
+            "RelationshipType": "OneToManyRelationship"
+          }
+        ],
+        "OwnershipType": "UserOwned",
+        "SchemaName": "end_Project",
+        "HasNotes": true,
+        "HasActivities": false,
+        "MetadataId": "a76f8bee-6562-4eed-af3a-efe2be95b18e"
+      },
+      "SampleData": [
+        {
+          "end_projectid": "526cc1e0-14db-4d7a-898d-c6da55c20dfa",
+          "end_clientid": "client_001",
+          "end_BusinessUnitID@odata.bind": "/end_businessunits(0d46b10b-eaee-4e77-ab21-4abf39894251)",
+          "end_projectname": "Project Alpha",
+          "end_startdate": "2023-01-01T00:00:00",
+          "end_enddate": "2023-06-01T00:00:00",
+          "end_completiondate": null,
+          "end_invoicingmethod": 787950000,
+          "end_engagementmanager": "Alice Smith",
+          "end_projectmanager": "Bob Johnson",
+          "end_projectvalue": 10000,
+          "end_billingfrequency": 787950000
+        },
+        {
+          "end_projectid": "59f18630-cc1b-49d0-a3f7-0c049512a8cd",
+          "end_clientid": "client_002",
+          "end_BusinessUnitID@odata.bind": "/end_businessunits(2d538917-70b0-42b9-a01e-411d30f2c076)",
+          "end_projectname": "Project Beta",
+          "end_startdate": "2023-02-01T00:00:00",
+          "end_enddate": "2023-07-01T00:00:00",
+          "end_completiondate": null,
+          "end_invoicingmethod": 787950001,
+          "end_engagementmanager": "Charlie Brown",
+          "end_projectmanager": "David Wilson",
+          "end_projectvalue": 20000,
+          "end_billingfrequency": 787950001
+        },
+        {
+          "end_projectid": "e5442f60-46e3-46e3-95f5-7935e5072b18",
+          "end_clientid": "client_003",
+          "end_BusinessUnitID@odata.bind": "/end_businessunits(6a53fcc8-5fcd-49ef-ab6d-894a9839b2f7)",
+          "end_projectname": "Project Gamma",
+          "end_startdate": "2023-03-01T00:00:00",
+          "end_enddate": "2023-08-01T00:00:00",
+          "end_completiondate": null,
+          "end_invoicingmethod": 787950002,
+          "end_engagementmanager": "Eve Davis",
+          "end_projectmanager": "Frank Miller",
+          "end_projectvalue": 15000,
+          "end_billingfrequency": 787950002
+        },
+        {
+          "end_projectid": "0a97030b-a42a-403e-b876-d4b1da1ba5d6",
+          "end_clientid": "client_004",
+          "end_BusinessUnitID@odata.bind": "/end_businessunits(0d46b10b-eaee-4e77-ab21-4abf39894251)",
+          "end_projectname": "Project Delta",
+          "end_startdate": "2023-04-01T00:00:00",
+          "end_enddate": "2023-09-01T00:00:00",
+          "end_completiondate": null,
+          "end_invoicingmethod": 787950000,
+          "end_engagementmanager": "Grace Lee",
+          "end_projectmanager": "Henry Taylor",
+          "end_projectvalue": 25000,
+          "end_billingfrequency": 787950000
+        },
+        {
+          "end_projectid": "70512e79-6e42-4fd7-b1cc-05fa2768c235",
+          "end_clientid": "client_005",
+          "end_BusinessUnitID@odata.bind": "/end_businessunits(2d538917-70b0-42b9-a01e-411d30f2c076)",
+          "end_projectname": "Project Epsilon",
+          "end_startdate": "2023-05-01T00:00:00",
+          "end_enddate": "2023-10-01T00:00:00",
+          "end_completiondate": null,
+          "end_invoicingmethod": 787950001,
+          "end_engagementmanager": "Ivy White",
+          "end_projectmanager": "Jack Green",
+          "end_projectvalue": 30000,
+          "end_billingfrequency": 787950001
+        }
+      ]
+    },
+    {
+      "EntityDefinition": {
+        "@odata.type": "Microsoft.Dynamics.CRM.EntityMetadata",
+        "Attributes": [
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+            "Targets": [
+              "end_project"
+            ],
+            "Format": "None",
+            "AttributeType": "Lookup",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Project",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "end_ProjectID",
+            "MetadataId": "d32c65d9-cd99-4909-90a9-fd8b4184e5c5",
+            "AttributeTypeName": {
+              "Value": "LookupType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+            "IsPrimaryName": true,
+            "Format": "Text",
+            "MaxLength": 100,
+            "AttributeType": "String",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Title",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "end_Title",
+            "MetadataId": "00897c86-7906-4d33-8d7c-8ea1d05c2b0b",
+            "FormatName": {
+              "Value": "Text"
+            },
+            "AttributeTypeName": {
+              "Value": "StringType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "Precision": 0,
+            "PrecisionSource": 0,
+            "AttributeType": "Money",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Total Fee",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "end_TotalFee",
+            "MetadataId": "a64eeb89-a0e4-426b-902c-d8b72b99f2d3",
+            "AttributeTypeName": {
+              "Value": "MoneyType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "Precision": 0,
+            "PrecisionSource": 0,
+            "AttributeType": "Money",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Total Expenses",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true
+            },
+            "SchemaName": "end_TotalExpenses",
+            "MetadataId": "68bac538-fc30-4c77-97b5-119a88b78572",
+            "AttributeTypeName": {
+              "Value": "MoneyType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "Precision": 0,
+            "PrecisionSource": 0,
+            "AttributeType": "Money",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Invoice Total",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "end_InvoiceTotal",
+            "MetadataId": "53bce009-7654-4d3c-bc34-2d2d51bc013f",
+            "AttributeTypeName": {
+              "Value": "MoneyType"
+            }
+          },
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+            "IsPrimaryName": false,
+            "Format": "TextArea",
+            "MaxLength": 100,
+            "AttributeType": "String",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Other Invoice Instructions",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true
+            },
+            "SchemaName": "end_OtherInvoiceInstructions",
+            "MetadataId": "231cdfc5-528b-404b-96e2-ccbbebc2d423",
+            "FormatName": {
+              "Value": "TextArea"
+            },
+            "AttributeTypeName": {
+              "Value": "StringType"
+            }
+          }
+        ],
+        "Description": {
+          "LocalizedLabels": [
+            {
+              "Label": "This table contains records of invoice information",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayCollectionName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Invoices",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Invoice",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "ManyToOneRelationships": [
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.OneToManyRelationshipMetadata",
+            "CascadeConfiguration": {
+              "Assign": "NoCascade",
+              "Delete": "RemoveLink",
+              "Merge": "NoCascade",
+              "Reparent": "NoCascade",
+              "Share": "NoCascade",
+              "Unshare": "NoCascade"
+            },
+            "ReferencedAttribute": "end_projectid",
+            "ReferencedEntity": "end_project",
+            "ReferencingAttribute": "end_projectid",
+            "ReferencingEntity": "end_invoice",
+            "SchemaName": "end_Invoice_end_Project",
+            "MetadataId": "1926813f-0def-4672-988e-4a06f8fa1fe6",
+            "RelationshipType": "OneToManyRelationship"
+          }
+        ],
+        "OwnershipType": "UserOwned",
+        "SchemaName": "end_Invoice",
+        "HasNotes": true,
+        "HasActivities": false,
+        "MetadataId": "a1114c0f-6765-45b8-bda7-e61614f836a0"
+      },
+      "SampleData": [
+        {
+          "end_invoiceid": "b7868c95-bc21-4dfd-ac24-29c834a6edcc",
+          "end_ProjectID@odata.bind": "/end_projects(526cc1e0-14db-4d7a-898d-c6da55c20dfa)",
+          "end_title": "Invoice for Project Alpha",
+          "end_totalfee": 10000,
+          "end_totalexpenses": 500,
+          "end_invoicetotal": 10500,
+          "end_otherinvoiceinstructions": "Please pay within 30 days."
+        },
+        {
+          "end_invoiceid": "c4ccf0be-3eb0-4f43-8dcd-e53a03c6dfb7",
+          "end_ProjectID@odata.bind": "/end_projects(59f18630-cc1b-49d0-a3f7-0c049512a8cd)",
+          "end_title": "Invoice for Project Beta",
+          "end_totalfee": 20000,
+          "end_totalexpenses": 1000,
+          "end_invoicetotal": 21000,
+          "end_otherinvoiceinstructions": "Payment due upon receipt."
+        },
+        {
+          "end_invoiceid": "6bf5ba87-7edb-4544-9bee-8bf31518bebe",
+          "end_ProjectID@odata.bind": "/end_projects(e5442f60-46e3-46e3-95f5-7935e5072b18)",
+          "end_title": "Invoice for Project Gamma",
+          "end_totalfee": 15000,
+          "end_totalexpenses": 750,
+          "end_invoicetotal": 15750,
+          "end_otherinvoiceinstructions": "Late fee applies after 15 days."
+        },
+        {
+          "end_invoiceid": "55c88850-f7e4-40a6-97be-2c54dce1832a",
+          "end_ProjectID@odata.bind": "/end_projects(0a97030b-a42a-403e-b876-d4b1da1ba5d6)",
+          "end_title": "Invoice for Project Delta",
+          "end_totalfee": 25000,
+          "end_totalexpenses": 1200,
+          "end_invoicetotal": 26200,
+          "end_otherinvoiceinstructions": "Contact for any queries."
+        },
+        {
+          "end_invoiceid": "62bf7634-9a52-470e-865b-974e9ffe63a8",
+          "end_ProjectID@odata.bind": "/end_projects(70512e79-6e42-4fd7-b1cc-05fa2768c235)",
+          "end_title": "Invoice for Project Epsilon",
+          "end_totalfee": 30000,
+          "end_totalexpenses": 1500,
+          "end_invoicetotal": 31500,
+          "end_otherinvoiceinstructions": "Thank you for your business!"
+        }
+      ]
+    },
+    {
+      "EntityDefinition": {
+        "@odata.type": "Microsoft.Dynamics.CRM.EntityMetadata",
+        "Attributes": [
+          {
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+            "IsPrimaryName": true,
+            "Format": "Text",
+            "MaxLength": 100,
+            "AttributeType": "String",
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Business Unit Name",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "IsValidODataAttribute": false,
+            "RequiredLevel": {
+              "Value": "ApplicationRequired",
+              "CanBeChanged": true
+            },
+            "SchemaName": "end_BusinessUnitName",
+            "MetadataId": "9d52819a-a95d-4066-9aba-10504e914e61",
+            "FormatName": {
+              "Value": "Text"
+            },
+            "AttributeTypeName": {
+              "Value": "StringType"
+            }
+          }
+        ],
+        "Description": {
+          "LocalizedLabels": [
+            {
+              "Label": "This table contains records of business unit information",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayCollectionName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Business Units",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Business Unit",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "OwnershipType": "UserOwned",
+        "SchemaName": "end_BusinessUnit",
+        "HasNotes": true,
+        "HasActivities": false,
+        "MetadataId": "088e5d74-2b47-49b6-9e7f-406509d8b8c7"
+      },
+      "SampleData": [
+        {
+          "end_businessunitid": "0d46b10b-eaee-4e77-ab21-4abf39894251",
+          "end_businessunitname": "Marketing"
+        },
+        {
+          "end_businessunitid": "2d538917-70b0-42b9-a01e-411d30f2c076",
+          "end_businessunitname": "Sales"
+        },
+        {
+          "end_businessunitid": "6a53fcc8-5fcd-49ef-ab6d-894a9839b2f7",
+          "end_businessunitname": "Development"
+        },
+        {
+          "end_businessunitid": "2f1b3527-fa7e-4390-b7ca-dac4ccb7ca27",
+          "end_businessunitname": "Support"
+        },
+        {
+          "end_businessunitid": "585b4af9-e465-470d-b084-4cf460c1a4b0",
+          "end_businessunitname": "Finance"
+        }
+      ]
+    }
+  ],
+  "artifactIds": [
+    "3b674c5a-8b1c-f011-9989-6045bddd32cd",
+    "301da95b-8b1c-f011-998a-7c1e5236dd0e",
+    "a30dda60-8b1c-f011-998a-0022489c7949"
+  ],
+  "solutionUniqueName": "EndeavorSolution",
+  "planProcessDiagrams": []
+}

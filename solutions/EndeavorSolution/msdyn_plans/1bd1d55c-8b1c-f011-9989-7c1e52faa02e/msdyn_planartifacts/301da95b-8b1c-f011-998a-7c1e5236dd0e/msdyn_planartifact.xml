@@ -1,0 +1,12 @@
+<msdyn_planartifact msdyn_planartifactid="301da95b-8b1c-f011-998a-7c1e5236dd0e">
+  <iscustomizable>1</iscustomizable>
+  <msdyn_artifactmetadataschemaversion>1.0</msdyn_artifactmetadataschemaversion>
+  <msdyn_artifactstatus>419550000</msdyn_artifactstatus>
+  <msdyn_description>A flow to automatically add project entries to an Excel sheet whenever a project is created or updated.</msdyn_description>
+  <msdyn_name>Project Entry To Excel Flow</msdyn_name>
+  <msdyn_proposal mimetype="application/octet-stream">Project%20Entry%20To%20Excel%20Flow</msdyn_proposal>
+  <msdyn_proposalschemaversion>1.0</msdyn_proposalschemaversion>
+  <msdyn_type>PowerAutomateFlow</msdyn_type>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</msdyn_planartifact>

@@ -1,0 +1,23 @@
+<msdyn_plan msdyn_planid="1bd1d55c-8b1c-f011-9989-7c1e52faa02e">
+  <iscustomizable>1</iscustomizable>
+  <msdyn_content mimetype="application/octet-stream">Project%20Tracking%20System</msdyn_content>
+  <msdyn_contentschemaversion>1.1</msdyn_contentschemaversion>
+  <msdyn_description>This solution will allow project managers to create, update, and track project records efficiently, while backoffice users can generate invoices against projects.</msdyn_description>
+  <msdyn_languagecode>1033</msdyn_languagecode>
+  <msdyn_name>Project Tracking System</msdyn_name>
+  <msdyn_prompt>I need to be able to track projects.
+Project has start and end date, completion date, Invoicing method, Engagment Manager, Project manager,Project Value,Billing Frequency, and add other fields you think necessary. 
+There can be multiple projects against a business unit
+
+Project belongs to specific client. Use existing Contact table from dataverse for client data
+Each client can have multiple projects. The client information is also important as the client can be contacted via email/phone etc. 
+
+
+A project manager should be able to create/update new project record. 
+There is a backoffice role users who generates invoices against a project. 
+Invoices are created against a project, The invoice should have Title, Total Fee, Total Expenses , Invoice Total fields, Other Invoice Instructions
+
+We would like to add every project entry in an excel sheet, This should be done automatically every time a project is created or updated</msdyn_prompt>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</msdyn_plan>
