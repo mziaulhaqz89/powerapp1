@@ -1,0 +1,1 @@
+https://mzhdev.crm4.dynamics.com/api/data/v9.0/msdyn_solutioncomponentsummaries?$filter=(msdyn_solutionid%20eq%20d792f061-a28c-f011-b4cc-7c1e52362bef)&$select=msdyn_displayname,msdyn_schemaname,msdyn_componenttype,msdyn_componenttypename&$orderby=msdyn_componenttype
